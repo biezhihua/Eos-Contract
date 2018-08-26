@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EOS_Hello_Contract"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EOS_Hello_Contract">
+				<Option output="/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/EOS_Hello_Contract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/eosio/include"/>
+					<Add directory="/usr/local/eosio/include/libc++/upstream/include"/>
+					<Add directory="/usr/local/eosio/include/musl/upstream/include"/>
+					<Add directory="/usr/local/eosio"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/build/contracts"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/contracts"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/contracts/libc++/upstream/include"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/contracts/musl/upstream/include"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/externals/magic_get/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 EOS_Hello_Contract"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EOS_Hello_Contract/fast">
+				<Option output="/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/EOS_Hello_Contract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/eosio/include"/>
+					<Add directory="/usr/local/eosio/include/libc++/upstream/include"/>
+					<Add directory="/usr/local/eosio/include/musl/upstream/include"/>
+					<Add directory="/usr/local/eosio"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/build/contracts"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/contracts"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/contracts/libc++/upstream/include"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/contracts/musl/upstream/include"/>
+					<Add directory="/Users/biezhihua/StudySpace/eos/externals/magic_get/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 EOS_Hello_Contract/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/biezhihua/StudySpace/EOS-Hello-Contract/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/biezhihua/StudySpace/EOS-Hello-Contract/hello.cpp">
+			<Option target="EOS_Hello_Contract"/>
+		</Unit>
+		<Unit filename="/Users/biezhihua/StudySpace/EOS-Hello-Contract/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
